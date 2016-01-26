@@ -1,8 +1,4 @@
 <code_scheme name="Default (1)">
-  <option name="FIELD_NAME_PREFIX" value="m" />
-  <option name="STATIC_FIELD_NAME_PREFIX" value="s" />
-  <option name="GENERATE_FINAL_LOCALS" value="true" />
-  <option name="GENERATE_FINAL_PARAMETERS" value="true" />
   <option name="CLASS_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="NAMES_COUNT_TO_USE_IMPORT_ON_DEMAND" value="99" />
   <option name="PACKAGES_TO_USE_IMPORT_ON_DEMAND">
@@ -63,8 +59,24 @@
     </extensions>
   </Objective-C-extensions>
   <XML>
-    <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
+    <option name="XML_KEEP_LINE_BREAKS" value="false" />
+    <option name="XML_ALIGN_ATTRIBUTES" value="false" />
+    <option name="XML_SPACE_INSIDE_EMPTY_TAG" value="true" />
   </XML>
+  <codeStyleSettings language="JAVA">
+    <arrangement>
+      <groups>
+        <group>
+          <type>GETTERS_AND_SETTERS</type>
+          <order>KEEP</order>
+        </group>
+        <group>
+          <type>OVERRIDDEN_METHODS</type>
+          <order>KEEP</order>
+        </group>
+      </groups>
+    </arrangement>
+  </codeStyleSettings>
   <codeStyleSettings language="XML">
     <option name="FORCE_REARRANGE_MODE" value="1" />
     <indentOptions>
@@ -77,7 +89,7 @@
             <match>
               <AND>
                 <NAME>xmlns:android</NAME>
-                <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
+                <XML_NAMESPACE>^$</XML_NAMESPACE>
               </AND>
             </match>
           </rule>
@@ -87,7 +99,7 @@
             <match>
               <AND>
                 <NAME>xmlns:.*</NAME>
-                <XML_NAMESPACE>Namespace:</XML_NAMESPACE>
+                <XML_NAMESPACE>^$</XML_NAMESPACE>
               </AND>
             </match>
             <order>BY_NAME</order>
