@@ -26,6 +26,10 @@
           <option name="url" value="https://github.com/romainguy/road-trip.git" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/olegosipenko/AnimationExample.git" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="E:\Android\samples" />
