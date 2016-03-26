@@ -1,0 +1,17 @@
+<application>
+  <component name="SetterTemplates">
+    <option name="defaultTempalteName" value="IntelliJ Default" />
+    <option name="templates">
+      <list>
+        <TemplateResource>
+          <option name="fileName" value="Text" />
+          <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;public &#10;#if($field.modifierStatic)&#10;  static ##&#10;#end&#10;void set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))(String $paramName) {&#10;  #if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;      this.##&#10;    #else&#10;      $classname.##&#10;    #end&#10;  #end&#10;  ${field.accessor}.setText($paramName);&#10;}" />
+        </TemplateResource>
+        <TemplateResource>
+          <option name="fileName" value="CharSequence" />
+          <option name="template" value="#set($paramName = $helper.getParamName($field, $project))&#10;public &#10;#if($field.modifierStatic)&#10;  static ##&#10;#end&#10;void set$StringUtil.capitalizeWithJavaBeanConvention($StringUtil.sanitizeJavaIdentifier($helper.getPropertyName($field, $project)))(CharSequence $paramName) {&#10;  #if ($field.name == $paramName)&#10;    #if (!$field.modifierStatic)&#10;      this.##&#10;    #else&#10;      $classname.##&#10;    #end&#10;  #end&#10;  ${field.accessor}.setText($paramName);&#10;}" />
+        </TemplateResource>
+      </list>
+    </option>
+  </component>
+</application>
