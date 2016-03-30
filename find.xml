@@ -1,7 +1,7 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="File 'E:\Android\samples\PasswordView\app\src\main\java\com\kaspersky\passwordview\PasswordEditText.java'" />
-    <option name="defaultScopeName" value="File 'E:\Android\samples\PasswordView\app\src\main\java\com\kaspersky\passwordview\PasswordEditText.java'" />
-    <option name="SEARCH_SCOPE" value="File 'E:\Android\samples\PasswordView\app\src\main\java\com\kaspersky\passwordview\PasswordEditText.java'" />
+    <option name="customScope" value="Module 'UI'" />
+    <option name="defaultScopeName" value="Module 'UI'" />
+    <option name="SEARCH_SCOPE" value="Module 'UI'" />
   </component>
 </application>
