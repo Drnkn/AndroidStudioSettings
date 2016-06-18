@@ -242,6 +242,7 @@
     <option name="PREFERRED_PROJECT_CODE_STYLE" value="AndroidStyle" />
   </component>
   <component name="RefactoringSettings">
+    <option name="MOVE_INNER_PREVIEW_USAGES" value="false" />
     <option name="INTRODUCE_FIELD_VISIBILITY" value="private" />
     <option name="INTRODUCE_LOCAL_CREATE_FINALS" value="true" />
   </component>
